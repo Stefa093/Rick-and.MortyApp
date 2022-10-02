@@ -159,6 +159,20 @@
     font-size: 18px;
 }
 
+.card__location {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px 0;
+    border-radius: 15px;
+    padding: 1.5rem;
+
+    background: #062226;
+}
+
 .card__loc-name {
     justify-content: center;
     align-items: center;
