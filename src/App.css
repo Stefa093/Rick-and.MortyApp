@@ -3,13 +3,13 @@
 }
 
 .header1 {
-    background: url(/src/components/images/image\ 3.png);
+    background: url(/src/components/images/image3.png);
     background-repeat: no-repeat ;
     background-size: contain;
 }
 
 .header2 {
-    background: url(/src/components/images/image\ 2.png);
+    background: url(/src/components/images/image2.png);
     height: 176px;
     background-repeat: no-repeat;
     background-position: center;
