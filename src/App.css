@@ -1,0 +1,91 @@
+.App {
+    margin: 0 auto;
+}
+
+.header1 {
+    background: url(/src/components/images/image\ 3.png);
+    background-repeat: no-repeat ;
+    background-size: contain;
+}
+
+.header2 {
+    background: url(/src/components/images/image\ 2.png);
+    height: 176px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section__container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.card-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.search-box {
+    display: flex;
+    width: 90%;
+    margin: 30px auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search-box .search-bar {
+    width: 100%;
+    padding: 15px;
+
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    color: #313131;
+    font-size: 20px;
+    transition: 0.4 ease;
+}
+
+.search-box .search-bar:focus {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.card__filter {
+    width: 100%;
+    left: 275px;
+    top: 347px;
+    overflow: auto;
+    border-radius: 5px;
+
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.card__fil-list {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.card__fil-list:hover {
+    filter: brightness(80%);
+    color: rgb(33, 191, 199);
+}
+
+.card__fil-list:active {
+    transform: scale(0.95);
+}
+
+@media (min-width: 900px) {
+    .header1 {
+        min-height: 400px;
+        background-size: cover;
+    }
+}
